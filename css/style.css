@@ -68,3 +68,10 @@ h1 {
     transform: scale(1.05);
 }
 
+@media screen and (max-width: 600px) {
+    /* Quando a largura da tela for 600 pixels ou menos (tamanho de celular) */
+    .descricao {
+        text-align: center; /* Centraliza o texto quando a largura da tela é de 600 pixels ou menos */
+    }
+}
+
